@@ -1,16 +1,12 @@
-name: example-environment
-channels:
-  - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
-  - seaborn
-  - sklearn
-  - scipy
+  - python=3
+  - pip:
+    - spacy
+    - ipykernel
+    - scipy
+    - numpy
+    - scikit-learn
+    - matplotlib
+    - seaborn
+    - pandas
+    - thinc
